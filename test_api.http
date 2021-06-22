@@ -1,0 +1,12 @@
+POST http://localhost:5000/api/utenti
+Content-Type: application/json
+
+{"nome":  "Napolenone", "eta":  44}
+
+###
+
+GET http://localhost:5000/api/utenti
+
+###
+
+DELETE http://localhost:5000/api/utenti/1
